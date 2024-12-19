@@ -1,0 +1,94 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#appTitle {
+    display: inline-block;
+    align-items: center;
+    padding: 40px;
+    font-family: monospace;
+    font-size: 70px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 10px;
+    margin-left: 20px;
+    background-color: white;
+    white-space: nowrap;
+}
+
+#name {
+    padding: 5px;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: monospace;
+    border: 1px solid;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(0, 153, 255);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+
+#colorButton {
+    border-color: black;
+    cursor: pointer;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+}
+
+#nameButton {
+    border-color: black;
+    cursor: pointer;
+}
+
+#sizeButton {
+    border-color: black;
+    cursor: pointer;
+}
+
+.circle-container {
+    display: flex;          /* Align items in a row */
+    align-items: center;    /* Vertically center the items */
+    justify-content: flex-start; /* Align items to the left */
+    position: relative;     /* For positioning inside the container */
+    margin-top: 50px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: solid;
+}
+
+.colorList {
+    width: 650px;
+    height: 100px;
+    background-color: beige;
+    margin-left: 750px;
+    margin-bottom: 10px;
+}
+
+.inputSpace {
+    margin-left: 835px;
+}
+
+.sizesListC {
+    margin-left: 830px;
+}
